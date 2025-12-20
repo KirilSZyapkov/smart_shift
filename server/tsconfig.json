@@ -11,6 +11,7 @@
     "moduleResolution": "node",
     "target": "ES2023",
     "types": ["node"],
+    "esModuleInterop": true,
     // For nodejs:
     // "lib": ["esnext"],
     // "types": ["node"],
