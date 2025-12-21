@@ -5,29 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ddcfd1d-3042-4924-b6ee-fbe2c4028784" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/server/src/trpc/context.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/trpc/router.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/trpc/trpc.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/prisma/schema.prisma" beforeDir="false" afterPath="$PROJECT_DIR$/server/prisma/schema.prisma" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/generated/browser.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/generated/client.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/generated/commonInputTypes.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/generated/enums.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/generated/internal/class.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/generated/internal/prismaNamespace.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/generated/internal/prismaNamespaceBrowser.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/generated/models.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/generated/models/Company.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/generated/models/Employee.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/generated/models/Shift.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/generated/models/Subscription.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/generated/models/TimeOff.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/generated/models/User.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/server/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/prisma.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/prisma/generated/browser.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/prisma/generated/client.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/prisma/generated/commonInputTypes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/prisma/generated/enums.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/prisma/generated/internal/class.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/prisma/generated/internal/prismaNamespace.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/prisma/generated/internal/prismaNamespaceBrowser.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/prisma/generated/models.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/prisma/generated/models/Company.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/prisma/generated/models/Employee.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/prisma/generated/models/Shift.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/prisma/generated/models/Subscription.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/prisma/generated/models/TimeOff.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/prisma/generated/models/User.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/prisma/schema.prisma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/db/prisma.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/db/mongoose.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/trpc/routes/context.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/trpc/routes/router.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/trpc/routes/trpc.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/trpc/context.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/trpc/context.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +57,9 @@
     &quot;accountId&quot;: &quot;119ee46d-3cab-4c95-ada2-895276f559a1&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 6
@@ -66,28 +70,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "javascript.preferred.runtime.type.id": "node",
-    "junie.onboarding.icon.badge.shown": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.appearance",
-    "to.speed.mode.migration.done": "true",
-    "ts.external.directory.path": "/home/kiril/Documents/Repositories/smart_shift/server/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/kiril/Documents/Repositories/smart_shift/server/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/server/src/trpc" />
@@ -109,7 +113,9 @@
       <updated>1766233516176</updated>
       <workItem from="1766233519726" duration="81000" />
       <workItem from="1766233628437" duration="14767000" />
-      <workItem from="1766311913167" duration="3331000" />
+      <workItem from="1766311913167" duration="8418000" />
+      <workItem from="1766322982496" duration="3028000" />
+      <workItem from="1766337340265" duration="8108000" />
     </task>
     <servers />
   </component>

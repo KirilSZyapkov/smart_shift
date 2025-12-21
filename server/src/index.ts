@@ -1,6 +1,7 @@
 import express from "express";
 import cors from "cors";
 import * as trpcExpress from '@trpc/server/adapters/express';
+import {connectToDatabase} from "./db/mongoose";
 // import {errorHandler} from "./middlewares/errorHandler";
 import {clerkMiddleware} from "@clerk/express";
 import {createContext} from "./trpc/context";

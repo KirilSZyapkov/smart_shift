@@ -1,13 +1,11 @@
-import type { CreateNextContextOptions } from '@trpc/server/adapters/next';
-import type {PrismaClient} from "../../prisma/generated/client";
-import {db as database} from "../db/prisma";
+import type {CreateExpressContextOptions} from '@trpc/server/adapters/express';
+import {connectToDatabase} from "../db/mongoose";
 import {getAuth} from "@clerk/express";
 
-export const createContext = async (opts: CreateNextContextOptions) => {
+export const createContext = async (opts: CreateExpressContextOptions) => {
   const auth = getAuth(opts.req);
-  const db: PrismaClient = database;
   return {
-    db,
+    db: connectToDatabase(),
     req: opts.req,
     res: opts.res,
     userId: auth.userId ?? null
