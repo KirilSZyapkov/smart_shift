@@ -5,8 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ddcfd1d-3042-4924-b6ee-fbe2c4028784" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/server/src/trpc/context.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/trpc/router.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/trpc/trpc.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/prisma/schema.prisma" beforeDir="false" afterPath="$PROJECT_DIR$/server/prisma/schema.prisma" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/generated/browser.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/generated/client.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/generated/commonInputTypes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/generated/enums.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/generated/internal/class.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/generated/internal/prismaNamespace.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/generated/internal/prismaNamespaceBrowser.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/generated/models.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/generated/models/Company.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/generated/models/Employee.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/generated/models/Shift.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/generated/models/Subscription.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/generated/models/TimeOff.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/generated/models/User.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/trpc/routes/context.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/trpc/routes/router.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/trpc/routes/trpc.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +88,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server/src/trpc" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -83,7 +109,7 @@
       <updated>1766233516176</updated>
       <workItem from="1766233519726" duration="81000" />
       <workItem from="1766233628437" duration="14767000" />
-      <workItem from="1766311913167" duration="809000" />
+      <workItem from="1766311913167" duration="3331000" />
     </task>
     <servers />
   </component>
