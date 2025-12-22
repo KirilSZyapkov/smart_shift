@@ -6,29 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1ddcfd1d-3042-4924-b6ee-fbe2c4028784" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/server/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/prisma.config.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/prisma/generated/browser.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/prisma/generated/client.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/prisma/generated/commonInputTypes.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/prisma/generated/enums.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/prisma/generated/internal/class.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/prisma/generated/internal/prismaNamespace.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/prisma/generated/internal/prismaNamespaceBrowser.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/prisma/generated/models.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/prisma/generated/models/Company.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/prisma/generated/models/Employee.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/prisma/generated/models/Shift.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/prisma/generated/models/Subscription.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/prisma/generated/models/TimeOff.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/prisma/generated/models/User.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/prisma/schema.prisma" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/db/prisma.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/db/mongoose.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/trpc/context.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/trpc/context.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +37,7 @@
   }
 }</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -115,7 +94,8 @@
       <workItem from="1766233628437" duration="14767000" />
       <workItem from="1766311913167" duration="8418000" />
       <workItem from="1766322982496" duration="3028000" />
-      <workItem from="1766337340265" duration="8108000" />
+      <workItem from="1766337340265" duration="8396000" />
+      <workItem from="1766378518232" duration="388000" />
     </task>
     <servers />
   </component>

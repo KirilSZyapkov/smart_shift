@@ -9,6 +9,8 @@ import {appRouter} from "./trpc/router";
 
 const app = express();
 
+startServer();
+
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
@@ -30,6 +32,18 @@ app.get("/", (req, res) => {
 
 const PORT = process.env.PORT || 4000;
 
-app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`)
-})
+async function startServer() {
+  try {
+    await connectToDatabase();
+    console.log("✅ MongoDB connected");
+
+    app.listen(PORT, () => {
+      console.log(`Server is running on http://localhost:${PORT}`)
+    });
+  } catch (e) {
+    console.error(e);
+    console.log("❌ Failed to connect to MongoDB");
+    process.exit(1)
+  }
+}
+
