@@ -1,7 +1,8 @@
 import { router } from './trpc';
+import { userRouter } from './routes/userRouter';
 
 export const appRouter = router({
-
+user: userRouter
 });
 
 // Export only the type of a router!

@@ -1,7 +1,8 @@
 import {Schema, model, models} from 'mongoose';
 
 export interface CompanyDocument {
-  name: string;
+  companyName: string;
+  ownerClerkId: string;
   slug: string;
   stripeCustomerId?: string;
   plan: 'FREE' | 'STARTER' | 'BUSINESS' | 'PRO';
@@ -11,9 +12,9 @@ export interface CompanyDocument {
 
 const CompanySchema = new Schema<CompanyDocument>(
   {
-    name: {type: String, required: true},
+    companyName: {type: String, required: true},
     slug: {type: String, required: true, unique: true},
-
+    ownerClerkId: {type: String, required: true},
     stripeCustomerId: {type: String},
     plan: {
       type: String,
