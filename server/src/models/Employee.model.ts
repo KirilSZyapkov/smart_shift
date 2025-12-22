@@ -1,4 +1,4 @@
-import {Schema, model, models, Types, Model} from 'mongoose';
+import {Schema, model, Types, Model} from 'mongoose';
 
 export type EmployeeDocument = {
   companyId: Types.ObjectId;
@@ -23,4 +23,4 @@ const EmployeeSchema = new Schema<EmployeeDocument>(
   {timestamps: true}
 );
 
-export const Employee:Model<EmployeeDocument> = models.Employee || model<EmployeeDocument>('Employee', EmployeeSchema);
+export const Employee: Model<EmployeeDocument> = model<EmployeeDocument>('Employee', EmployeeSchema);
