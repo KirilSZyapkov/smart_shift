@@ -6,8 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="1ddcfd1d-3042-4924-b6ee-fbe2c4028784" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/models/Company.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/models/Company.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/models/Employee.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/models/Employee.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/models/Shift.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/models/Shift.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/models/User.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/models/User.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/services/company.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/services/company.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/trpc/context.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/trpc/context.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/trpc/routes/userRouter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/trpc/routes/userRouter.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +42,7 @@
   }
 }</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -95,7 +100,8 @@
       <workItem from="1766311913167" duration="8418000" />
       <workItem from="1766322982496" duration="3028000" />
       <workItem from="1766337340265" duration="8396000" />
-      <workItem from="1766378518232" duration="388000" />
+      <workItem from="1766378518232" duration="628000" />
+      <workItem from="1766420903129" duration="6067000" />
     </task>
     <servers />
   </component>

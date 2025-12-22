@@ -1,6 +1,6 @@
-import {Schema, model, models} from 'mongoose';
+import {Schema, model, Model} from 'mongoose';
 
-export interface CompanyDocument {
+export type CompanyDocument = {
   companyName: string;
   ownerClerkId: string;
   slug: string;
@@ -25,4 +25,4 @@ const CompanySchema = new Schema<CompanyDocument>(
   {timestamps: true}
 );
 
-export const Company = models.Company || model<CompanyDocument>('Company', CompanySchema);
+export const Company:Model<CompanyDocument> = model<CompanyDocument>('Company', CompanySchema);

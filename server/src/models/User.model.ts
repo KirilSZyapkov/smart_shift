@@ -1,6 +1,6 @@
-import {Schema, model, models, Types} from 'mongoose';
+import {Schema, model, Model, Types} from 'mongoose';
 
-export interface UserDocument {
+export type UserDocument = {
   clerkUserId: string;
   email: string;
   firstName: string;
@@ -28,4 +28,4 @@ const UserSchema = new Schema<UserDocument>(
   {timestamps: true}
 );
 
-export const User = models.User || model<UserDocument>('User', UserSchema);
+export const User:Model<UserDocument> = model<UserDocument>('User', UserSchema);

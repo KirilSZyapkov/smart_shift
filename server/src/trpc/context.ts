@@ -11,14 +11,14 @@ export const createContext = async (opts: CreateExpressContextOptions) => {
 
   if(auth.userId){
     companyContext = await resolveCompanyByClerkUserId(auth.userId);
-  };
+  }
 
   return {
     db,
     req: opts.req,
     res: opts.res,
     userId: auth.userId ?? null,
-    company: companyContext?.company ?? null
+    company: companyContext?.company ?? null,
     role: companyContext?.role ?? null
   };
 };

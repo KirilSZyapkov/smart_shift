@@ -1,6 +1,6 @@
 import {Schema, model, models, Types} from 'mongoose';
 
-export interface ShiftDocument {
+export type ShiftDocument = {
   companyId: Types.ObjectId;
   employeeId: Types.ObjectId;
   startTime: Date;

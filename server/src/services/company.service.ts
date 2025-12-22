@@ -8,7 +8,7 @@ export async function resolveCompanyByClerkUserId(clerkUserId: string){
         return null;
     }
 
-    const company = await Company.findOne({user.companyId});
+    const company = await Company.findById(user.companyId);
 
     if(!company){
         return null;

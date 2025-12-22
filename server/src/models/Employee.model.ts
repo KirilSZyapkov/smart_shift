@@ -1,10 +1,10 @@
-import {Schema, model, models, Types} from 'mongoose';
+import {Schema, model, models, Types, Model} from 'mongoose';
 
-export interface EmployeeDocument {
+export type EmployeeDocument = {
   companyId: Types.ObjectId;
   firstName: string;
   lastName: string;
-  position?: string;
+  position: string;
   isActive: boolean;
   createdAt: Date;
   updatedAt: Date;
@@ -16,11 +16,11 @@ const EmployeeSchema = new Schema<EmployeeDocument>(
 
     firstName: {type: String, required: true},
     lastName: {type: String, required: true},
-    position: {type: String},
+    position: {type: String, required: true},
 
     isActive: {type: Boolean, default: true},
   },
   {timestamps: true}
 );
 
-export const Employee = models.Employee || model<EmployeeDocument>('Employee', EmployeeSchema);
+export const Employee:Model<EmployeeDocument> = models.Employee || model<EmployeeDocument>('Employee', EmployeeSchema);
