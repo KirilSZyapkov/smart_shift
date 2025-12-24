@@ -20,10 +20,6 @@ export const protectedProcedure = t.procedure.use(({ctx, next})=>{
         })
     };
 
-    return next({
-        ctx: {
-            userId: ctx.userId
-        }
-    })
+    return next();
 })
 

@@ -6,11 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="1ddcfd1d-3042-4924-b6ee-fbe2c4028784" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/models/Employee.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/models/Employee.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/trpc/routes/employeeRouter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/trpc/routes/employeeRouter.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/trpc/routes/userRouter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/trpc/routes/userRouter.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/trpc/trpc.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/trpc/trpc.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="25" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -34,6 +42,10 @@
     &quot;accountId&quot;: &quot;119ee46d-3cab-4c95-ada2-895276f559a1&quot;
   }
 }</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -50,6 +62,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
@@ -95,6 +108,8 @@
       <workItem from="1766337340265" duration="8396000" />
       <workItem from="1766378518232" duration="628000" />
       <workItem from="1766420903129" duration="7077000" />
+      <workItem from="1766521218052" duration="218000" />
+      <workItem from="1766593019780" duration="4710000" />
     </task>
     <servers />
   </component>

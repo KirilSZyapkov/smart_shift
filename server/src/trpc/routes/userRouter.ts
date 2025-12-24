@@ -5,7 +5,6 @@ import {Company} from "../../models/Company.model";
 
 
 export const userRouter = router({
-
   createNewUser: publicProcedure
     .input(
       z.object({
