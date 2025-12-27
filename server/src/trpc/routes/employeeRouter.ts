@@ -1,6 +1,8 @@
-import {router, publicProcedure, protectedProcedure} from "../trpc";
+import {protectedProcedure, publicProcedure, router} from "../trpc";
 import {z} from "zod";
 import {Employee} from "../../models/Employee.model";
+import {AppError} from "../../errors/AppError";
+import {ErrorCode} from "../../errors/errorCodes";
 
 export const employeeRouter = router({
   createNewEmployee: protectedProcedure
@@ -26,9 +28,11 @@ export const employeeRouter = router({
         return employee;
 
       } catch (e) {
-        console.error(e);
-        console.log("Failed to create new employee!");
-        throw new Error("Failed to create new employee!");
+        throw new AppError(
+          "Failed to create new employee!",
+          500,
+          ErrorCode.DATABASE_ERROR,
+        )
       }
 
     }),
@@ -43,9 +47,11 @@ export const employeeRouter = router({
       const allEmployee = await Employee.find({companyId: company._id, isActive: true});
       return allEmployee;
     } catch (e) {
-      console.error(e);
-      console.log("Server error, can't load data!");
-      throw new Error("Internal server error!");
+      throw new AppError(
+        "Failed load all employees!",
+        500,
+        ErrorCode.DATABASE_ERROR,
+      )
     }
   }),
 
@@ -65,9 +71,11 @@ export const employeeRouter = router({
 
         return employeeAccount;
       } catch (e) {
-        console.error(e);
-        console.log("Wrong credentials!");
-        throw new Error("Wrong credentials!");
+        throw new AppError(
+          "Failed to load current employee!",
+          500,
+          ErrorCode.DATABASE_ERROR,
+        )
       }
     }),
 
@@ -98,9 +106,11 @@ export const employeeRouter = router({
 
       return updatedEmployee;
     } catch (e) {
-      console.error(e);
-      console.log("Server error, can't load data!");
-      throw new Error("Internal server error!");
+      throw new AppError(
+        "Failed to update the employee!",
+        500,
+        ErrorCode.DATABASE_ERROR,
+      )
     }
   }),
 
@@ -128,9 +138,11 @@ export const employeeRouter = router({
 
         return deactivatedEmployee;
       } catch (e) {
-        console.error(e);
-        console.log("Server error, can't load data!");
-        throw new Error("Internal server error!");
+        throw new AppError(
+          "Failed to deactivate the employee!",
+          500,
+          ErrorCode.DATABASE_ERROR,
+        )
       }
 
     })

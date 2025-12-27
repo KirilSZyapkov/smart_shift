@@ -1,8 +1,9 @@
-import {router, publicProcedure, protectedProcedure} from "../trpc";
+import {protectedProcedure, publicProcedure, router} from "../trpc";
 import {z} from "zod";
 import {User} from "../../models/User.model";
 import {Company} from "../../models/Company.model";
-
+import {AppError} from "../../errors/AppError";
+import {ErrorCode} from "../../errors/errorCodes";
 
 export const userRouter = router({
   createNewUser: publicProcedure
@@ -18,17 +19,20 @@ export const userRouter = router({
       const {userId} = ctx;
 
       if (!userId) {
-        throw new Error("Unauthorized");
-      }
-
-
-      let user = await User.findOne({clerkUserId: userId});
-
-      if (user) {
-        return user;
+        throw new AppError(
+          "UNAUTHORIZED",
+          401,
+          ErrorCode.UNAUTHORIZED
+        )
       }
 
       try {
+        let user = await User.findOne({clerkUserId: userId});
+
+        if (user) {
+          return user;
+        }
+
         const company = await Company.create({
           companyName: input.companyName,
           ownerClerkId: userId,
@@ -47,9 +51,11 @@ export const userRouter = router({
         return user;
 
       } catch (error) {
-        console.error(error);
-        console.log("Failed to sync user!");
-        throw new Error("Failed with sincing user");
+        throw new AppError(
+          "Failed to sync user!",
+          500,
+          ErrorCode.INTERNAL_SERVER_ERROR
+        )
       }
     }),
 
@@ -57,16 +63,25 @@ export const userRouter = router({
     const {userId} = ctx;
 
     if (!userId) {
-      throw new Error("Unauthorized");
+      throw new AppError(
+        "UNAUTHORIZED",
+        401,
+        ErrorCode.UNAUTHORIZED
+      )
     }
 
-    const currentUser = await User.findOne({clerkUserId: userId});
+    try {
+      const currentUser = await User.findOne({clerkUserId: userId});
 
-    if (!currentUser) {
-      throw new Error("User not found");
+      return currentUser;
+    } catch (e) {
+      throw new AppError(
+        "Failed to sync user!",
+        500,
+        ErrorCode.INTERNAL_SERVER_ERROR
+      )
     }
 
-    return currentUser;
   })
 
 })

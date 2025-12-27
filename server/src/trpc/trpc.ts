@@ -1,5 +1,7 @@
-import { initTRPC, TRPCError } from '@trpc/server';
+import {initTRPC} from '@trpc/server';
 import type {Context} from "./context";
+import {AppError} from "../errors/AppError";
+import {ErrorCode} from "../errors/errorCodes";
 
 // You can use any variable name you like.
 // We use t to keep things simple.
@@ -14,10 +16,11 @@ export const publicProcedure = t.procedure;
 
 export const protectedProcedure = t.procedure.use(({ctx, next})=>{
     if(!ctx.userId){
-        throw new TRPCError({
-            code: "UNAUTHORIZED",
-            message: "User is not authenticated"
-        })
+        throw new AppError(
+          "UNAUTHORIZED",
+          401,
+          ErrorCode.UNAUTHORIZED
+        )
     };
 
     return next();

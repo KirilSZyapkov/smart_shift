@@ -1,6 +1,8 @@
-import {router, protectedProcedure, publicProcedure} from "../trpc";
+import {protectedProcedure, publicProcedure, router} from "../trpc";
 import {z} from "zod";
 import {Shift} from "../../models/Shift.model";
+import {AppError} from "../../errors/AppError";
+import {ErrorCode} from "../../errors/errorCodes";
 
 export const shiftRouter = router({
   createNewShift: protectedProcedure.input(
@@ -28,9 +30,11 @@ export const shiftRouter = router({
 
       return newShift;
     } catch (e) {
-      console.error(e);
-      console.log("Failed to create new shift!");
-      throw new Error("Failed to create new shift!");
+      throw new AppError(
+        "Failed to create new shift",
+        500,
+        ErrorCode.INTERNAL_SERVER_ERROR
+      )
     }
 
   }),
@@ -44,15 +48,21 @@ export const shiftRouter = router({
       const {companyId,} = input;
 
       if (!companyId) {
-        throw new Error("Please login!")
+        throw new AppError(
+          "You must be logged in!",
+          401,
+          ErrorCode.UNAUTHORIZED
+        )
       }
       try {
         const allShifts = await Shift.find({companyId:companyId})
         return allShifts;
       } catch (e) {
-        console.error(e);
-        console.log("Server error!");
-        throw new Error("Failed to fetch shift!");
+        throw new AppError(
+          "Failed to load all shifts!",
+          500,
+          ErrorCode.INTERNAL_SERVER_ERROR
+        )
       }
     })
 })
