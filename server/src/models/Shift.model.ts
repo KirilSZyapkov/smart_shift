@@ -29,4 +29,4 @@ const ShiftSchema = new Schema<ShiftDocument>(
   {timestamps: true}
 );
 
-export const Shift = models.Shift || model<ShiftDocument>('Shift', ShiftSchema);
+export const Shift = model<ShiftDocument>('Shift', ShiftSchema);

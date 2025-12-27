@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1ddcfd1d-3042-4924-b6ee-fbe2c4028784" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/models/Employee.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/models/Employee.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/trpc/routes/employeeRouter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/trpc/routes/employeeRouter.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/trpc/routes/userRouter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/trpc/routes/userRouter.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/trpc/trpc.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/trpc/trpc.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/db/mongoose.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/db/mongoose.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/models/Shift.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/models/Shift.model.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +107,9 @@
       <workItem from="1766378518232" duration="628000" />
       <workItem from="1766420903129" duration="7077000" />
       <workItem from="1766521218052" duration="218000" />
-      <workItem from="1766593019780" duration="4710000" />
+      <workItem from="1766593019780" duration="5233000" />
+      <workItem from="1766602856463" duration="798000" />
+      <workItem from="1766843916260" duration="5886000" />
     </task>
     <servers />
   </component>
