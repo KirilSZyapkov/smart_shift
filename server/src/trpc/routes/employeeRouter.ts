@@ -29,7 +29,7 @@ export const employeeRouter = router({
 
       } catch (e) {
         throw new AppError(
-          "Failed to create new employee!",
+          "Failed to create new employees!",
           500,
           ErrorCode.DATABASE_ERROR,
         )
@@ -72,7 +72,7 @@ export const employeeRouter = router({
         return employeeAccount;
       } catch (e) {
         throw new AppError(
-          "Failed to load current employee!",
+          "Failed to load current employees!",
           500,
           ErrorCode.DATABASE_ERROR,
         )
@@ -107,7 +107,7 @@ export const employeeRouter = router({
       return updatedEmployee;
     } catch (e) {
       throw new AppError(
-        "Failed to update the employee!",
+        "Failed to update the employees!",
         500,
         ErrorCode.DATABASE_ERROR,
       )
@@ -139,7 +139,7 @@ export const employeeRouter = router({
         return deactivatedEmployee;
       } catch (e) {
         throw new AppError(
-          "Failed to deactivate the employee!",
+          "Failed to deactivate the employees!",
           500,
           ErrorCode.DATABASE_ERROR,
         )

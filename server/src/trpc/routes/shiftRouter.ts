@@ -15,7 +15,7 @@ export const shiftRouter = router({
   ).mutation(async ({ctx, input}) => {
     const {company, userId, role} = ctx;
     if (!input.employeeId) {
-      throw new Error("You must assign an employee!");
+      throw new Error("You must assign an employees!");
     }
 
     if (role !== "OWNER" || !userId || !company) {
