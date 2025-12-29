@@ -6,12 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="1ddcfd1d-3042-4924-b6ee-fbe2c4028784" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/app/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/(auth)/dashboard/employees/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/app/(auth)/application/dashboard/employees/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/(auth)/dashboard/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/app/(auth)/application/dashboard/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/(auth)/dashboard/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/app/(auth)/application/dashboard/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/(auth)/dashboard/shifts/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/app/(auth)/application/dashboard/shifts/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/trpc/routes/employeeRouter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/trpc/routes/employeeRouter.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/trpc/routes/shiftRouter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/trpc/routes/shiftRouter.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +88,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/app/(auth)" />
+      <recent name="$PROJECT_DIR$/client/app/(auth)/application" />
       <recent name="$PROJECT_DIR$/client/app/(auth)/dashboard" />
       <recent name="$PROJECT_DIR$/server/src/trpc" />
     </key>
@@ -116,7 +119,8 @@
       <workItem from="1766593019780" duration="5233000" />
       <workItem from="1766602856463" duration="798000" />
       <workItem from="1766843916260" duration="13421000" />
-      <workItem from="1766949654444" duration="2831000" />
+      <workItem from="1766949654444" duration="3063000" />
+      <workItem from="1767002766173" duration="3237000" />
     </task>
     <servers />
   </component>
