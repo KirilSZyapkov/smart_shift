@@ -10,7 +10,6 @@ import {
 } from "@/components/ui/card";
 import {
   Field,
-  FieldDescription,
   FieldGroup,
   FieldLabel,
   FieldSeparator,
@@ -28,7 +27,7 @@ export function LoginForm({
           <CardTitle className="text-xl">Welcome back</CardTitle>
         </CardHeader>
         <CardContent>
-          <form>
+          <form onSubmit={()=>{}}>
             <FieldGroup>
               <FieldSeparator className="*:data-[slot=field-separator-content]:bg-card">
                 Login with your work account
@@ -61,10 +60,6 @@ export function LoginForm({
           </form>
         </CardContent>
       </Card>
-      <FieldDescription className="px-6 text-center">
-        By clicking continue, you agree to our <a href="#">Terms of Service</a>{" "}
-        and <a href="#">Privacy Policy</a>.
-      </FieldDescription>
     </div>
   )
 }
